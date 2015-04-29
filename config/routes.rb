@@ -10,8 +10,8 @@ Rails.application.routes.draw do
   # end
   # root 'devise/sessions#new'
 
-  devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks', sessions: :sessions }
-  match '/users/:id/finish_signup' => 'users#finish_signup', via: [:get, :patch], :as => :finish_signup
+  # devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks', sessions: :sessions }
+  # match '/users/:id/finish_signup' => 'users#finish_signup', via: [:get, :patch], :as => :finish_signup
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
