@@ -49,7 +49,6 @@ gem 'omniauth-linkedin'
 gem 'omniauth-twitter'
 
 gem "letter_opener", group: :development
-gem 'debugger'
 gem 'differ'
 gem 'rails_12factor', group: :production
 
