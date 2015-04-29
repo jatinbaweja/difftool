@@ -1,0 +1,11 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+ins.differ {
+  color: white;
+  background-color: green;
+}
+del.differ {
+  color: white;
+  background-color: red;
+}

@@ -1,0 +1,13 @@
+<div id="login-methods" class="container">
+  <h1>Diff tool</h1>
+  <div id="differ">
+    <%= form_tag root_path do |f| %>
+      <%= text_area_tag :text1 %>
+      <%= text_area_tag :text2 %>
+      <%= submit_tag 'Submit' %>
+    <% end %>
+    <% if @diff %>
+      <p><%= @diff.format_as(:html).html_safe %></p>
+    <% end %>
+  </div>
+</div>
